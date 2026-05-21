@@ -1,0 +1,26 @@
+# 🖥️ --- OS Generated Files ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# ⚙️ --- Riot Client & UE4 Cache Logs ---
+*.log
+*.tmp
+*.crash
+*.dmp
+/riot_memory_dumps/
+/telemetry_logs/
+
+# 📂 --- Exclude Heavy Analytics Data ---
+# Prevents uploading massive video recordings and local data
+/render_cache/
+/video_capture/
+/input_records/
+
+# 🔧 --- Development Environment ---
+.env
+config.local
+.vscode/
+.idea/
